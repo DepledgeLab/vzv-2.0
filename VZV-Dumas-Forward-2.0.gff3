@@ -1,0 +1,280 @@
+##gff-version 3
+##sequence-region dumas.fasta 1 124884
+
+dumas.fasta	Dan	gene	1	1072	.	+	.	ID=Gene0; Name=Gene0
+dumas.fasta	Dan	mRNA	1	1072	.	+	.	ID=mRNA.0-altx; Parent=Gene0
+dumas.fasta	Dan	mRNA	161	1072	.	+	.	ID=mRNA.0-1; Parent=Gene0; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	435	1072	.	+	.	ID=mRNA.0-2; Parent=Gene0;class=Immediate-Early
+dumas.fasta	Dan	exon	1	582	.	+	.	ID=exon1; Parent=mRNA.0-altx
+dumas.fasta	Dan	exon	161	582	.	+	.	ID=exon1; Parent=mRNA.0-1
+dumas.fasta	Dan	exon	435	582	.	+	.	ID=exon1; Parent=mRNA.0-2
+dumas.fasta	Dan	exon	715	1072	.	+	.	ID=exon2; Parent=mRNA.0-1,mRNA.0-2,mRNA.0-altx
+dumas.fasta	Dan	CDS	173	562	.	+	0	ID=ORF0; Parent=mRNA.0-1; Name=ORF0p
+
+dumas.fasta	Dan	gene	1158	1884	.	+	.	ID=Gene2; Name=Gene2
+dumas.fasta	Dan	mRNA	1158	1884	.	+	.	ID=mRNA.2-1; Parent=Gene2; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	1158	1884	.	+	.	ID=exon1; Parent=mRNA.2-1
+dumas.fasta	Dan	CDS	1186	1851	.	+	0	ID=ORF3; Parent=mRNA.2-1; Name=ORF2p
+
+dumas.fasta	Dan	gene	8453	9413	.	+	.	ID=Gene7; Name=Gene7
+dumas.fasta	Dan	mRNA	8453	9413	.	+	.	ID=mRNA.7-1; Parent=Gene7; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	8453	9413	.	+	.	ID=exon1; Parent=mRNA.7-1
+dumas.fasta	Dan	CDS	8607	9386	.	+	0	ID=ORF7; Parent=mRNA.7-1; Name=ORF7p
+
+dumas.fasta	Dan	gene	9610	11982	.	+	.	ID=Gene9; Name=Gene9
+dumas.fasta	Dan	mRNA	9610	11982	.	+	.	ID=mRNA.9-2; Parent=Gene9
+dumas.fasta	Dan	mRNA	9610	11982	.	+	.	ID=mRNA.9-3; Parent=Gene9
+dumas.fasta	Dan	mRNA	10452	11982	.	+	.	ID=mRNA.9-A; Parent=Gene9; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	10952	11982	.	+	.	ID=mRNA.9-1; Parent=Gene9; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	9610	9887	.	+	.	ID=exon1; Parent=mRNA.9-2,mRNA.9-3
+dumas.fasta	Dan	exon	10452	11981	.	+	.	ID=exon3; Parent=mRNA.9-A,mRNA.9-3
+dumas.fasta	Dan	exon	10952	11981	.	+	.	ID=exon2; Parent=mRNA.9-1,mRNA.9-2
+dumas.fasta	Dan	CDS	10642	10905	.	+	0	ID=ORF9A; Parent=mRNA.9-A; Name=ORF9Ap
+dumas.fasta	Dan	CDS	11009	11917	.	+	0	ID=ORF9; Parent=mRNA.9-1; Name=ORF9p
+
+dumas.fasta	Dan	gene	12097	13435	.	+	.	ID=gene10; Name=gene10
+dumas.fasta	Dan	mRNA	12097	13435	.	+	.	ID=mRNA.10-1; Parent=gene10
+dumas.fasta	Dan	exon	12097	13435	.	+	.	ID=exon1; Parent=mRNA.10-1
+dumas.fasta	Dan	CDS	12160	13392	.	+	0	ID=ORF10; Parent=mRNA.10-1; Name=ORF10p
+
+dumas.fasta	Dan	gene	13448	16144	.	+	.	ID=gene11; Name=gene11
+dumas.fasta	Dan	mRNA	13529	16144	.	+	.	ID=mRNA.11-1; Parent=gene11; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	13529	16144	.	+	.	ID=exon1; Parent=mRNA.11-1
+dumas.fasta	Dan	CDS	13590	16049	.	+	0	ID=ORF11p; Parent=mRNA.11-1; Name=ORF11p
+
+dumas.fasta	Dan	gene	16147	19404	.	+	.	ID=gene12; Name=gene12
+dumas.fasta	Dan	mRNA	16147	19404	.	+	.	ID=mRNA.12-1; Parent=gene12
+dumas.fasta	Dan	mRNA	18387	19404	.	+	.	ID=mRNA.12-2; Parent=gene12; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	18387	19404	.	+	.	ID=mRNA.12-3; Parent=gene12
+dumas.fasta	Dan	mRNA	18387	19404	.	+	.	ID=mRNA.12-4; Parent=gene12
+dumas.fasta	Dan	exon	16147	16711	.	+	.	ID=exon3; Parent=mRNA.12-3,mRNA.12-4
+dumas.fasta	Dan	exon	16147	19411	.	+	.	ID=exon1; Parent=mRNA.12-1
+dumas.fasta	Dan	exon	16887	16999	.	+	.	ID=exon4; Parent=mRNA.12-3
+dumas.fasta	Dan	exon	18387	19411	.	+	.	ID=exon2; Parent=mRNA.12-2,mRNA.12-3,mRNA.12-4
+dumas.fasta	Dan	CDS	16214	18199	.	+	0	ID=ORF12; Parent=mRNA.12-1; Name=ORF12p
+dumas.fasta	Dan	CDS	18441	19346	.	+	0	ID=ORF13; Parent=mRNA.12-2; Name=ORF13p
+
+dumas.fasta	Dan	gene	20393	21108	.	+	.	ID=gene13A; Name=gene13A
+dumas.fasta	Dan	mRNA	20393	21108	.	+	.	ID=mRNA.13A-1; Parent=gene13A
+dumas.fasta	Dan	mRNA	20393	21108	.	+	.	ID=mRNA.13A-2; Parent=gene13A
+dumas.fasta	Dan	exon	20393	20847	.	+	.	ID=exon1; Parent=mRNA.13A-1
+dumas.fasta	Dan	exon	20932	21108	.	+	.	ID=exon2; Parent=mRNA.13A-1
+dumas.fasta	Dan	exon	20393	20721	.	+	.	ID=exon1; Parent=mRNA.13A-2
+dumas.fasta	Dan	exon	20806	21108	.	+	.	ID=exon2; Parent=mRNA.13A-2
+
+dumas.fasta	Dan	gene	24036	25534	.	+	.	ID=gene17; Name=gene17
+dumas.fasta	Dan	mRNA	24036	25534	.	+	.	ID=mRNA.17-1; Parent=gene17; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	24036	25534	.	+	.	ID=exon1; Parent=mRNA.17-1
+dumas.fasta	Dan	CDS	24149	25516	.	+	0	ID=ORF17; Parent=mRNA.17-1; Name=ORF17p
+
+dumas.fasta	Dan	gene	30682	33926	.	+	.	ID=gene21; Name=gene21
+dumas.fasta	Dan	mRNA	30682	33926	.	+	.	ID=mRNA.21-1; Parent=gene21; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	30682	33926	.	+	.	ID=exon1; Parent=mRNA.21-1
+dumas.fasta	Dan	CDS	30759	33875	.	+	0	ID=ORF21; Parent=mRNA.21-1; Name=ORF21p
+
+dumas.fasta	Dan	gene	33969	42401	.	+	.	ID=gene22; Name=gene22
+dumas.fasta	Dan	mRNA	33969	42401	.	+	.	ID=mRNA.22-1; Parent=gene22; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	33969	42401	.	+	.	ID=exon1; Parent=mRNA.22-1
+dumas.fasta	Dan	CDS	34083	42374	.	+	0	ID=ORF22; Parent=mRNA.22-1; Name=ORF22p
+
+dumas.fasta	Dan	gene	44174	47258	.	+	.	ID=gene26; Name=gene26
+dumas.fasta	Dan	mRNA	44174	45897	.	+	.	ID=mRNA.26-3; Parent=gene26; Note=weakCPAS
+dumas.fasta	Dan	mRNA	44174	47258	.	+	.	ID=mRNA.26-1; Parent=gene26; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	46085	47258	.	+	.	ID=mRNA.26-2; Parent=gene26; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	44174	45897	.	+	.	ID=exon1; Parent=mRNA.26-3
+dumas.fasta	Dan	exon	44174	47258	.	+	.	ID=exon1; Parent=mRNA.26-1
+dumas.fasta	Dan	exon	46085	47258	.	+	.	ID=exon1; Parent=mRNA.26-2
+dumas.fasta	Dan	CDS	44506	46263	.	+	0	ID=ORF26; Parent=mRNA.26-1; Name=ORF26p
+dumas.fasta	Dan	CDS	46127	47128	.	+	0	ID=ORF27; Parent=mRNA.26-2; Name=ORF27p
+
+dumas.fasta	Dan	gene	50790	54533	.	+	.	ID=gene29; Name=gene29
+dumas.fasta	Dan	mRNA	50790	54533	.	+	.	ID=mRNA.29-1; Parent=gene29; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	52109	54533	.	+	.	ID=mRNA.29-2; Parent=gene29
+dumas.fasta	Dan	exon	50790	54533	.	+	.	ID=exon1; Parent=mRNA.29-1
+dumas.fasta	Dan	exon	52109	54533	.	+	.	ID=exon2; Parent=mRNA.29-2
+dumas.fasta	Dan	CDS	50857	54471	.	+	0	ID=ORF29; Parent=mRNA.29-1; Name=ORF29p
+
+dumas.fasta	Dan	gene	54613	60222	.	+	.	ID=gene30; Name=gene30
+dumas.fasta	Dan	mRNA	54613	59665	.	+	.	ID=mRNA.30-2; Parent=gene30; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	54613	60222	.	+	.	ID=mRNA.30-1; Parent=gene30
+dumas.fasta	Dan	mRNA	56670	59665	.	+	.	ID=mRNA.30-4; Parent=gene30; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	56670	60222	.	+	.	ID=mRNA.30-3; Parent=gene30
+dumas.fasta	Dan	mRNA	56670	60222	.	+	.	ID=mRNA.30-6; Parent=gene30
+dumas.fasta	Dan	mRNA	59729	60222	.	+	.	ID=mRNA.30-5; Parent=gene30; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	54613	59665	.	+	.	ID=exon2; Parent=mRNA.30-2
+dumas.fasta	Dan	exon	54613	60222	.	+	.	ID=exon1; Parent=mRNA.30-1
+dumas.fasta	Dan	exon	56670	56727	.	+	.	ID=exon6; Parent=mRNA.30-6
+dumas.fasta	Dan	exon	56670	59665	.	+	.	ID=exon4; Parent=mRNA.30-4
+dumas.fasta	Dan	exon	56670	60222	.	+	.	ID=exon3; Parent=mRNA.30-3
+dumas.fasta	Dan	exon	59692	60222	.	+	.	ID=exon7; Parent=mRNA.30-6
+dumas.fasta	Dan	exon	59729	60222	.	+	.	ID=exon5; Parent=mRNA.30-5
+dumas.fasta	Dan	CDS	54651	56963	.	+	0	ID=ORF30; Parent=mRNA.30-2; Name=ORF30p
+dumas.fasta	Dan	CDS	56819	59614	.	+	0	ID=ORF31; Parent=mRNA.30-4; Name=ORF31p
+dumas.fasta	Dan	CDS	59766	60197	.	+	0	ID=ORF32; Parent=mRNA.30-5; Name=ORF32p
+
+dumas.fasta	Dan	gene	64395	65884	.	+	.	ID=gene36; Name=gene36
+dumas.fasta	Dan	mRNA	64395	65884	.	+	.	ID=mRNA.36-1; Parent=gene36; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	64395	65884	.	+	.	ID=exon1; Parent=mRNA.36-1
+dumas.fasta	Dan	CDS	64807	65883	.	+	0	ID=ORF36; Parent=mRNA.36-1; Name=ORF36p
+
+dumas.fasta	Dan	gene	65987	68578	.	+	.	ID=gene37; Name=gene37
+dumas.fasta	Dan	mRNA	65987	68578	.	+	.	ID=mRNA.37-1; Parent=gene37; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	65987	68578	.	+	.	ID=exon1; Parent=mRNA.37-1
+dumas.fasta	Dan	CDS	66074	68578	.	+	0	ID=ORF37; Parent=mRNA.37-1; Name=ORF37p
+
+dumas.fasta	Dan	gene	70584	76834	.	+	.	ID=gene39; Name=gene39; Note=TSSguestimate
+dumas.fasta	Dan	mRNA	70584	71394	.	+	.	ID=mRNA.39-1; Parent=gene39; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	70584	76834	.	+	.	ID=mRNA.39-2; Parent=gene39
+dumas.fasta	Dan	mRNA	71477	76834	.	+	.	ID=mRNA.39-3; Parent=gene39; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	73747	76834	.	+	.	ID=mRNA.39-4; Parent=gene39; Note=TSSguestimate
+dumas.fasta	Dan	mRNA	75791	76834	.	+	.	ID=mRNA.39-5; Parent=gene39; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	70584	71394	.	+	.	ID=exon1; Parent=mRNA.39-1
+dumas.fasta	Dan	exon	70584	76834	.	+	.	ID=exon1; Parent=mRNA.39-2
+dumas.fasta	Dan	exon	71477	76834	.	+	.	ID=exon1; Parent=mRNA.39-3
+dumas.fasta	Dan	exon	73747	76834	.	+	.	ID=exon1; Parent=mRNA.39-4
+dumas.fasta	Dan	exon	75791	76834	.	+	.	ID=exon51; Parent=mRNA.39-5
+dumas.fasta	Dan	CDS	70687	71355	.	+	0	ID=ORF39; Parent=mRNA.39-1; Name=ORF39p
+dumas.fasta	Dan	CDS	71540	75730	.	+	0	ID=ORF40; Parent=mRNA.39-3; Name=ORF40p
+dumas.fasta	Dan	CDS	75847	76797	.	+	0	ID=ORF41; Parent=mRNA.39-5; Name=ORF41p
+
+dumas.fasta	Dan	gene	77736	80209	.	+	.	ID=gene43; Name=gene43
+dumas.fasta	Dan	mRNA	77736	78577	.	+	.	ID=mRNA.43-2; Parent=gene43
+dumas.fasta	Dan	mRNA	77736	80209	.	+	.	ID=mRNA.43-1; Parent=gene43; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	77736	77869	.	+	.	ID=exon1; Parent=mRNA.43-1,mRNA.43-2
+dumas.fasta	Dan	exon	78149	78577	.	+	.	ID=exon3; Parent=mRNA.43-2
+dumas.fasta	Dan	exon	78149	80209	.	+	.	ID=exon2; Parent=mRNA.43-1
+dumas.fasta	Dan	CDS	78170	80200	.	+	0	ID=ORF43; Parent=mRNA.43-1; Name=ORF43p
+
+dumas.fasta	Dan	gene	80318	81530	.	+	.	ID=gene44; Name=gene44
+dumas.fasta	Dan	mRNA	80318	81530	.	+	.	ID=mRNA.44-1; Parent=gene44; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	80318	81530	.	+	.	ID=exon1; Parent=mRNA.44-1
+dumas.fasta	Dan	CDS	80360	81451	.	+	0	ID=ORF44; Parent=mRNA.44-1; Name=ORF44p
+
+dumas.fasta	Dan	gene	82706	86513	.	+	.	ID=gene46; Name=gene46
+dumas.fasta	Dan	mRNA	82706	86513	.	+	.	ID=mRNA.46-1; Parent=gene46; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	82928	86513	.	+	.	ID=mRNA.46-2; Parent=gene46; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	84525	86513	.	+	.	ID=mRNA.46-3; Parent=gene46; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	84595	86513	.	+	.	ID=mRNA.46-6; Parent=gene46; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	84595	86513	.	+	.	ID=mRNA.46-5; Parent=gene46
+dumas.fasta	Dan	mRNA	85852	86513	.	+	.	ID=mRNA.46-4; Parent=gene46
+dumas.fasta	Dan	exon	82706	86513	.	+	.	ID=exon1; Parent=mRNA.46-1
+dumas.fasta	Dan	exon	82928	86513	.	+	.	ID=exon1; Parent=mRNA.46-2
+dumas.fasta	Dan	exon	84525	86513	.	+	.	ID=exon1; Parent=mRNA.46-3
+dumas.fasta	Dan	exon	84595	86513	.	+	.	ID=exon1; Parent=mRNA.46-6
+dumas.fasta	Dan	exon	84595	85452	.	+	.	ID=exon1; Parent=mRNA.46-5
+dumas.fasta	Dan	exon	86012	86513	.	+	.	ID=exon1; Parent=mRNA.46-5
+dumas.fasta	Dan	exon	85852	86513	.	+	.	ID=exon1; Parent=mRNA.46-4
+dumas.fasta	Dan	CDS	82719	83318	.	+	0	ID=ORF46; Parent=mRNA.46-1; Name=ORF46p
+dumas.fasta	Dan	CDS	83168	84700	.	+	0	ID=ORF47; Parent=mRNA.46-2; Name=ORF47p
+dumas.fasta	Dan	CDS	84667	86322	.	+	0	ID=ORF48; Parent=mRNA.46-3; Name=ORF48p
+dumas.fasta	Dan	CDS	86226	86471	.	+	0	ID=ORF49; Parent=mRNA.46-4; Name=ORF49p
+
+dumas.fasta	Dan	gene	87702	92852	.	+	.	ID=gene51; Name=gene51
+dumas.fasta	Dan	mRNA	87702	92852	.	+	.	ID=mRNA.51-1; Parent=gene51; Note=TSSguestimate; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	90477	92852	.	+	.	ID=mRNA.51-2; Parent=gene51; Note=TSSguestimate; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	87702	92852	.	+	.	ID=exon1; Parent=mRNA.51-1
+dumas.fasta	Dan	exon	90477	92852	.	+	.	ID=exon1; Parent=mRNA.51-2
+dumas.fasta	Dan	CDS	87881	90388	.	+	0	ID=ORF51; Parent=mRNA.51-1; Name=ORF51p
+dumas.fasta	Dan	CDS	90493	92808	.	+	0	ID=ORF52; Parent=mRNA.51-2; Name=ORF52p
+
+dumas.fasta	Dan	gene	95885	99375	.	+	.	ID=gene55; Name=gene55
+dumas.fasta	Dan	mRNA	95885	97681	.	+	.	ID=mRNA.55-2; Parent=gene55
+dumas.fasta	Dan	mRNA	95885	98656	.	+	.	ID=mRNA.55-1; Parent=gene55; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	98680	99375	.	+	.	ID=mRNA.55-3; Parent=gene55; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	95885	97681	.	+	.	ID=exon1; Parent=mRNA.55-2
+dumas.fasta	Dan	exon	95885	98656	.	+	.	ID=exon1; Parent=mRNA.55-1
+dumas.fasta	Dan	exon	98680	99375	.	+	.	ID=exon1; Parent=mRNA.55-3
+dumas.fasta	Dan	CDS	95996	98641	.	+	0	ID=ORF55; Parent=mRNA.55-1; Name=ORF55p
+dumas.fasta	Dan	CDS	98680	99302	.	+	0	ID=ORF56; Parent=mRNA.55-3; Name=ORF56p
+
+dumas.fasta	Dan	gene	101413	111451	.	+	.	ID=geneVLT63; Name=geneVLT63
+dumas.fasta	Dan	mRNA	101413	104835	.	+	.	ID=mRNA.VLT-lyt; Parent=geneVLT63
+dumas.fasta	Dan	mRNA	101413	111451	.	+	.	ID=mRNA.VLTlyt63-2; Parent=geneVLT63
+dumas.fasta	Dan	mRNA	101413	111451	.	+	.	ID=mRNA.VLTlyt63-3; Parent=geneVLT63
+dumas.fasta	Dan	mRNA	102392	104835	.	+	.	ID=mRNA.VLT-lat; Parent=geneVLT63; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	102392	111451	.	+	.	ID=mRNA.VLTlat63-1; Parent=geneVLT63
+dumas.fasta	Dan	mRNA	102392	111451	.	+	.	ID=mRNA.VLTlat63-2; Parent=geneVLT63
+dumas.fasta	Dan	mRNA	104687	111451	.	+	.	ID=mRNA.VLTlyt63-1; Parent=geneVLT63; Note=Immediate-Early
+dumas.fasta	Dan	mRNA	108839	111451	.	+	.	ID=mRNA.63-3; Parent=geneVLT63; Note=TSSguestimate
+dumas.fasta	Dan	mRNA	110495	111451	.	+	.	ID=mRNA.63-1; Parent=geneVLT63
+dumas.fasta	Dan	mRNA	110495	111451	.	+	.	ID=mRNA.63-2; Parent=geneVLT63
+dumas.fasta	Dan	exon	101413	101727	.	+	.	ID=exon1; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLT-lyt
+dumas.fasta	Dan	exon	102392	102483	.	+	.	ID=exon1a; Parent=mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2
+dumas.fasta	Dan	exon	102421	102483	.	+	.	ID=exon2; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLT-lyt
+dumas.fasta	Dan	exon	102854	102982	.	+	.	ID=exon3; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.VLT-lyt
+dumas.fasta	Dan	exon	103828	103923	.	+	.	ID=exon4; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.VLT-lyt
+dumas.fasta	Dan	exon	104294	104432	.	+	.	ID=exon5; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.VLT-lyt
+dumas.fasta	Dan	exon	104687	104823	.	+	.	ID=exon6; Parent=mRNA.VLTlyt63-1,mRNA.VLTlyt63-2,mRNA.VLTlat63-2
+dumas.fasta	Dan	exon	104687	104835	.	+	.	ID=exon6a; Parent=mRNA.VLT-lat,mRNA.VLT-lyt
+dumas.fasta	Dan	exon	108839	109994	.	+	.	ID=exon1; Parent=mRNA.63-3
+dumas.fasta	Dan	exon	109591	109994	.	+	.	ID=exon1; Parent=mRNA.63-2
+dumas.fasta	Dan	exon	110495	111451	.	+	.	ID=exon9; Parent=mRNA.63-1; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	110510	111446	.	+	.	ID=exon8; Parent=mRNA.VLTlyt63-1,mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.63-2,mRNA.63-3
+dumas.fasta	Dan	CDS	102860	102982	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-3; Name=VLTlyt63p
+dumas.fasta	Dan	CDS	102860	102982	.	+	0	ID=VLT63; Parent=mRNA.VLTlat63-1; Name=VLTlat63p
+dumas.fasta	Dan	CDS	102860	102982	.	+	0	ID=VLT; Parent=mRNA.VLT-lat; Name=VLTp
+dumas.fasta	Dan	CDS	102860	102982	.	+	0	ID=VLT; Parent=mRNA.VLT-lyt; Name=VLTp
+dumas.fasta	Dan	CDS	103828	103923	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-3; Name=VLTlyt63p
+dumas.fasta	Dan	CDS	103828	103923	.	+	0	ID=VLT63; Parent=mRNA.VLTlat63-1; Name=VLTlat63p
+dumas.fasta	Dan	CDS	103828	103923	.	+	0	ID=VLT; Parent=mRNA.VLT-lat; Name=VLTp
+dumas.fasta	Dan	CDS	103828	103923	.	+	0	ID=VLT; Parent=mRNA.VLT-lyt; Name=VLTp
+dumas.fasta	Dan	CDS	104294	104432	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-3; Name=VLTlyt63p
+dumas.fasta	Dan	CDS	104294	104432	.	+	0	ID=VLT63; Parent=mRNA.VLTlat63-1; Name=VLTlat63p
+dumas.fasta	Dan	CDS	104294	104432	.	+	0	ID=VLT; Parent=mRNA.VLT-lat; Name=VLTp
+dumas.fasta	Dan	CDS	104294	104432	.	+	0	ID=VLT; Parent=mRNA.VLT-lyt; Name=VLTp
+dumas.fasta	Dan	CDS	104769	104835	.	+	0	ID=VLT; Parent=mRNA.VLT-lat; Name=VLTp
+dumas.fasta	Dan	CDS	104769	104835	.	+	0	ID=VLT; Parent=mRNA.VLT-lyt; Name=VLTp
+dumas.fasta	Dan	CDS	110510	111417	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-3; Name=VLTlyt63p
+dumas.fasta	Dan	CDS	110510	111417	.	+	0	ID=VLT63; Parent=mRNA.VLTlat63-1; Name=VLTlat63p
+dumas.fasta	Dan	CDS	110510	111417	.	+	0	ID=VLT; Parent=mRNA.VLTlyt63-1; Name=ORF63p
+dumas.fasta	Dan	CDS	110581	111417	.	+	0	ID=ORF63; Parent=mRNA.63-1; Name=ORF63p
+
+
+
+
+
+dumas.fasta	Dan	gene	111450	112148	.	+	.	ID=gene64a; Name=gene64a
+dumas.fasta	Dan	mRNA	111450	112148	.	+	.	ID=mRNA.64a-1; Parent=gene64a; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	111450	112148	.	+	.	ID=exon1; Parent=mRNA.64a-1
+dumas.fasta	Dan	CDS	111565	112107	.	+	0	ID=ORF64; Parent=mRNA.64a-1; Name=ORF64p
+
+dumas.fasta	Dan	gene	112970	114238	.	+	.	ID=gene66; Name=gene66
+dumas.fasta	Dan	mRNA	112970	114238	.	+	.	ID=mRNA.66-1; Parent=gene66; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	112970	114238	.	+	.	ID=exon1; Parent=mRNA.66-1
+dumas.fasta	Dan	CDS	113037	114218	.	+	0	ID=ORF66; Parent=mRNA.66-1; Name=ORF66p
+
+dumas.fasta	Dan	gene	114407	115605	.	+	.	ID=gene67; Name=gene67
+dumas.fasta	Dan	mRNA	114407	115605	.	+	.	ID=mRNA.67-1; Parent=gene67; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	114407	115605	.	+	.	ID=exon1; Parent=mRNA.67-1
+dumas.fasta	Dan	CDS	114496	115560	.	+	0	ID=ORF67; Parent=mRNA.67-1; Name=ORF67p
+
+dumas.fasta	Dan	gene	115738	117732	.	+	.	ID=gene68; Name=gene68
+dumas.fasta	Dan	mRNA	115738	117732	.	+	.	ID=mRNA.68-1; Parent=gene68; Note=CanonicalmRNA
+dumas.fasta	Dan	exon	115738	117732	.	+	.	ID=exon1; Parent=mRNA.68-1
+dumas.fasta	Dan	CDS	115808	117679	.	+	0	ID=ORF68; Parent=mRNA.68-1; Name=ORF68p
+
+dumas.fasta	Dan	gene	120693	124779	.	+	.	ID=gene62b; Name=gene62b
+dumas.fasta	Dan	mRNA	120693	124779	.	+	.	ID=mRNA.62b-1; Parent=gene62b; Note=CanonicalmRNA
+dumas.fasta	Dan	mRNA	120693	124264	.	+	.	ID=mRNA.62b-2; Parent=gene62b
+dumas.fasta	Dan	mRNA	122082	124264	.	+	.	ID=mRNA.62b-4; Parent=gene62b
+dumas.fasta	Dan	mRNA	122082	124779	.	+	.	ID=mRNA.62b-3; Parent=gene62b
+dumas.fasta	Dan	mRNA	122631	124779	.	+	.	ID=mRNA.62b-5; Parent=gene62b
+dumas.fasta	Dan	mRNA	122824	124779	.	+	.	ID=mRNA.62b-6; Parent=gene62b
+dumas.fasta	Dan	exon	120693	124779	.	+	.	ID=exon1; Parent=mRNA.62b-1
+dumas.fasta	Dan	exon	120693	124264	.	+	.	ID=exon1; Parent=mRNA.62b-2
+dumas.fasta	Dan	exon	122082	124264	.	+	.	ID=exon1; Parent=mRNA.62b-4
+dumas.fasta	Dan	exon	122082	124779	.	+	.	ID=exon1; Parent=mRNA.62b-3
+dumas.fasta	Dan	exon	122631	124779	.	+	.	ID=exon1; Parent=mRNA.62b-5
+dumas.fasta	Dan	exon	122824	124779	.	+	.	ID=exon1; Parent=mRNA.62b-6
+dumas.fasta	Dan	CDS	120764	124696	.	+	0	ID=ORF62b; Parent=mRNA.62b-1; Name=ORF62b
+
+dumas.fasta	Dan	gene	124782	124884	.	+	.	ID=geneX; Name=geneX
+dumas.fasta	Dan	mRNA	124782	124884	.	+	.	ID=mRNA.0-alt; Parent=geneX
+dumas.fasta	Dan	exon	124782	124884	.	+	.	ID=exon1; Parent=mRNA.0-alt
+
+
+
+
+
+
+
