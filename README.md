@@ -1,9 +1,7 @@
 # vzv-2.0
 VZV 2.0 annotation
 
-"Novel splicing and open reading frames revealed by long-read direct RNA sequencing of adenovirus transcripts"
-
-This repository contains files related to our recent re-annotation of VZV strain Dumas described here - [ bioRxiv ] link
+This repository contains files related to our recent re-annotation of VZV strain Dumas described here - [ bioRxiv ] https://www.biorxiv.org/content/10.1101/2020.05.25.110965v1
 
 Description of files:
 
