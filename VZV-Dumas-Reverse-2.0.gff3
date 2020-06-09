@@ -1,0 +1,214 @@
+##gff-version 3
+##sequence-region dumas.fasta 1 124884
+dumas.fasta	VZV_2.0	gene	571	989	.	-	.	ID=gene1; Name=ORF1
+dumas.fasta	VZV_2.0	mRNA	571	989	.	-	.	ID=mRNA.1-1; Parent=gene1
+dumas.fasta	VZV_2.0	exon	571	989	.	-	.	ID=exon1; Parent=mRNA.1-1; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	CDS	589	915	.	-	0	ID=ORF1; Parent=mRNA.1-1; Name=ORF1p
+
+dumas.fasta	VZV_2.0	gene	1871	2483	.	-	.	ID=gene3; Name=ORF3
+dumas.fasta	VZV_2.0	mRNA	1871	2483	.	-	.	ID=mRNA.3-1; Parent=gene3; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	1871	2371	.	-	.	ID=mRNA.3-2; Parent=gene3
+dumas.fasta	VZV_2.0	exon	1871	2483	.	-	.	ID=exon1; Parent=mRNA.3-1
+dumas.fasta	VZV_2.0	exon	1871	2371	.	-	.	ID=exon1; Parent=mRNA.3-2
+dumas.fasta	VZV_2.0	CDS	1908	2447	.	-	0	ID=ORF3; Parent=mRNA.3-1; Name=ORF3p
+
+dumas.fasta	VZV_2.0	gene	2577	8642	.	-	.	ID=gene4; Name=ORF4
+dumas.fasta	VZV_2.0	mRNA	2577	4181	.	-	.	ID=mRNA.4-1; Parent=gene4; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	2577	5688	.	-	.	ID=mRNA.5-1; Parent=gene4; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	2577	5516	.	-	.	ID=mRNA.5-2; Parent=gene4
+dumas.fasta	VZV_2.0	mRNA	2577	8642	.	-	.	ID=mRNA.6-1; Parent=gene4; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	exon	2577	4181	.	-	.	ID=exon1; Parent=mRNA.4-1
+dumas.fasta	VZV_2.0	exon	2577	5688	.	-	.	ID=exon1; Parent=mRNA.5-1
+dumas.fasta	VZV_2.0	exon	2577	5516	.	-	.	ID=exon1; Parent=mRNA.5-2
+dumas.fasta	VZV_2.0	exon	2577	8642	.	-	.	ID=exon1; Parent=mRNA.6-1
+dumas.fasta	VZV_2.0	CDS	2783	4141	.	-	0	ID=ORF4; Parent=mRNA.4-1; Name=ORF4p
+dumas.fasta	VZV_2.0	CDS	4252	5274	.	-	0	ID=ORF5; Parent=mRNA.5-1; Name=ORF5p
+dumas.fasta	VZV_2.0	CDS	5326	8577	.	-	0	ID=ORF6; Parent=mRNA.6-1; Name=ORF6p
+
+dumas.fasta	VZV_2.0	gene	9410	10746	.	-	.	ID=gene8-1; Name=ORF8
+dumas.fasta	VZV_2.0	mRNA	9410	10746	.	-	.	ID=mRNA.8-1; Parent=gene8; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	exon	9410	10746	.	-	.	ID=exon1; Parent=mRNA.8-1
+dumas.fasta	VZV_2.0	CDS	9477	10667	.	-	0	ID=ORF8; Parent=mRNA.8-1; Name=ORF8p
+
+dumas.fasta	VZV_2.0	gene	18550	21149	.	-	.	ID=gene14; Name=ORF14
+dumas.fasta	VZV_2.0	mRNA	19372	21149	.	-	.	ID=mRNA.14-1; Parent=gene14; Note=CPASestimated; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	18550	21149	.	-	.	ID=mRNA.14-2; Parent=gene14; Note=CPASestimated
+dumas.fasta	VZV_2.0	exon	19372	21149	.	-	.	ID=exon1; Parent=mRNA.14-1
+dumas.fasta	VZV_2.0	exon	18550	21149	.	-	.	ID=exon1; Parent=mRNA.14-2
+dumas.fasta	VZV_2.0	CDS	19431	21113	.	-	0	ID=ORF14; Parent=mRNA.14-1; Name=ORF14p
+
+dumas.fasta	VZV_2.0	gene	21225	23862	.	-	.	ID=gene15; Name=ORF15
+dumas.fasta	VZV_2.0	mRNA	21225	22545	.	-	.	ID=mRNA.15-1; Parent=gene15; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	21892	22545	.	-	.	ID=mRNA.15-2; Parent=gene15
+dumas.fasta	VZV_2.0	mRNA	21789	22545	.	-	.	ID=mRNA.15-3; Parent=gene15
+dumas.fasta	VZV_2.0	mRNA	21225	23862	.	-	.	ID=mRNA.16-1; Parent=gene15; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	21892	23862	.	-	.	ID=mRNA.16-2; Parent=gene15
+dumas.fasta	VZV_2.0	mRNA	21789	23862	.	-	.	ID=mRNA.16-3; Parent=gene15
+dumas.fasta	VZV_2.0	exon	21225	22545	.	-	.	ID=exon1; Parent=mRNA.15-1
+dumas.fasta	VZV_2.0	exon	21892	22545	.	-	.	ID=exon1; Parent=mRNA.15-2
+dumas.fasta	VZV_2.0	exon	21789	22545	.	-	.	ID=exon1; Parent=mRNA.15-3
+dumas.fasta	VZV_2.0	exon	21225	23862	.	-	.	ID=exon1; Parent=mRNA.16-1
+dumas.fasta	VZV_2.0	exon	21892	23862	.	-	.	ID=exon1; Parent=mRNA.16-2
+dumas.fasta	VZV_2.0	exon	21789	23862	.	-	.	ID=exon1; Parent=mRNA.16-3
+dumas.fasta	VZV_2.0	CDS	21258	22478	.	-	0	ID=ORF15; Parent=mRNA.15-1; Name=ORF15p
+dumas.fasta	VZV_2.0	CDS	22568	23794	.	-	0	ID=ORF16; Parent=mRNA.16-1; Name=ORF16p
+
+
+dumas.fasta	VZV_2.0	gene	25534	30548	.	-	.	ID=gene18; Name=ORF18
+dumas.fasta	VZV_2.0	mRNA	25534	26594	.	-	.	ID=mRNA.18-1; Parent=gene18; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	25534	28905	.	-	.	ID=mRNA.19-1; Parent=gene18; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	27480	28905	.	-	.	ID=mRNA.19-2; Parent=gene18
+dumas.fasta	VZV_2.0	mRNA	28311	28905	.	-	.	ID=mRNA.19-3; Parent=gene18
+dumas.fasta	VZV_2.0	mRNA	28995	30548	.	-	.	ID=mRNA.20-1; Parent=gene18; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	28995	29815	.	-	.	ID=mRNA.20-2; Parent=gene18
+dumas.fasta	VZV_2.0	mRNA	28311	29815	.	-	.	ID=mRNA.20-3; Parent=gene18
+dumas.fasta	VZV_2.0	exon	25534	26594	.	-	.	ID=exon1; Parent=mRNA.18-1
+dumas.fasta	VZV_2.0	exon	25534	28905	.	-	.	ID=exon1; Parent=mRNA.19-1
+dumas.fasta	VZV_2.0	exon	27480	28905	.	-	.	ID=exon1; Parent=mRNA.19-2
+dumas.fasta	VZV_2.0	exon	28311	28905	.	-	.	ID=exon1; Parent=mRNA.19-3
+dumas.fasta	VZV_2.0	exon	28995	30548	.	-	.	ID=exon1; Parent=mRNA.20-1
+dumas.fasta	VZV_2.0	exon	28995	29815	.	-	.	ID=exon1; Parent=mRNA.20-2
+dumas.fasta	VZV_2.0	exon	28311	29815	.	-	.	ID=exon1; Parent=mRNA.20-3
+dumas.fasta	VZV_2.0	CDS	25573	26494	.	-	0	ID=ORF18; Parent=mRNA.18-1; Name=ORF18p
+dumas.fasta	VZV_2.0	CDS	26518	28845	.	-	0	ID=ORF19; Parent=mRNA.19-1; Name=ORF19p
+dumas.fasta	VZV_2.0	CDS	29024	30475	.	-	0	ID=ORF20; Parent=mRNA.20-1; Name=ORF20p
+
+dumas.fasta	VZV_2.0	gene	42409	44754	.	-	.	ID=gene23; Name=ORF23
+dumas.fasta	VZV_2.0	mRNA	42409	43187	.	-	.	ID=mRNA.23-1; Parent=gene23; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	43123	44035	.	-	.	ID=mRNA.24-1; Parent=gene23; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	43123	44035	.	-	.	ID=mRNA.24-2; Parent=gene23
+dumas.fasta	VZV_2.0	mRNA	43123	44754	.	-	.	ID=mRNA.25-1; Parent=gene23; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	exon	42409	43187	.	-	.	ID=exon1; Parent=mRNA.23-1
+dumas.fasta	VZV_2.0	exon	43123	44035	.	-	.	ID=exon1; Parent=mRNA.24-1
+dumas.fasta	VZV_2.0	exon	43123	43504	.	-	.	ID=exon1; Parent=mRNA.24-2
+dumas.fasta	VZV_2.0	exon	43827	44035	.	-	.	ID=exon2; Parent=mRNA.24-2
+dumas.fasta	VZV_2.0	exon	43123	44754	.	-	.	ID=exon1; Parent=mRNA.25-1
+dumas.fasta	VZV_2.0	CDS	42431	43138	.	-	0	ID=ORF23; Parent=mRNA.23-1; Name=ORF23p
+dumas.fasta	VZV_2.0	CDS	43212	44021	.	-	0	ID=ORF24; Parent=mRNA.24-1; Name=ORF24p
+dumas.fasta	VZV_2.0	CDS	44148	44618	.	-	0	ID=ORF25; Parent=mRNA.25-1; Name=ORF25p
+
+dumas.fasta	VZV_2.0	gene	46943	50679	.	-	.	ID=gene28; Name=ORF28
+dumas.fasta	VZV_2.0	mRNA	46943	50679	.	-	.	ID=mRNA.28-1; Parent=gene28; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	47932	50679	.	-	.	ID=mRNA.28-2; Parent=gene28
+dumas.fasta	VZV_2.0	mRNA	48195	50679	.	-	.	ID=mRNA.28-3; Parent=gene28
+dumas.fasta	VZV_2.0	exon	46943	50679	.	-	.	ID=exon1; Parent=mRNA.28-1
+dumas.fasta	VZV_2.0	exon	47932	50679	.	-	.	ID=exon1; Parent=mRNA.28-2
+dumas.fasta	VZV_2.0	exon	48195	50679	.	-	.	ID=exon1; Parent=mRNA.28-3
+dumas.fasta	VZV_2.0	CDS	47052	50636	.	-	0	ID=ORF28; Parent=mRNA.28-1; Name=ORF28p
+
+dumas.fasta	VZV_2.0	gene	60301	64965	.	-	.	ID=gene33; Name=ORF33
+dumas.fasta	VZV_2.0	mRNA	60301	62189	.	-	.	ID=mRNA.33-1; Parent=gene33; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	60301	61328	.	-	.	ID=mRNA.33-2; Parent=gene33; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	60301	62279	.	-	.	ID=mRNA.33-3; Parent=gene33
+dumas.fasta	VZV_2.0	mRNA	60301	63935	.	-	.	ID=mRNA.34-1; Parent=gene33; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	63061	63935	.	-	.	ID=mRNA.34-2; Parent=gene33
+dumas.fasta	VZV_2.0	mRNA	60301	64802	.	-	.	ID=mRNA.35-1; Parent=gene33; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	exon	60301	62189	.	-	.	ID=exon1; Parent=mRNA.33-1
+dumas.fasta	VZV_2.0	exon	60301	61328	.	-	.	ID=exon1; Parent=mRNA.33-2
+dumas.fasta	VZV_2.0	exon	60301	62279	.	-	.	ID=exon1; Parent=mRNA.33-3
+dumas.fasta	VZV_2.0	exon	60301	63935	.	-	.	ID=exon1; Parent=mRNA.34-1
+dumas.fasta	VZV_2.0	exon	63061	63935	.	-	.	ID=exon1; Parent=mRNA.34-2
+dumas.fasta	VZV_2.0	exon	60301	64802	.	-	.	ID=exon1; Parent=mRNA.35-1
+dumas.fasta	VZV_2.0	CDS	60321	62138	.	-	0	ID=ORF33; Parent=mRNA.33-1; Name=ORF33p
+dumas.fasta	VZV_2.0	CDS	60321	61229	.	-	0	ID=ORF33.5; Parent=mRNA.33-2; Name=ORF33.5p
+dumas.fasta	VZV_2.0	CDS	62171	63910	.	-	0	ID=ORF34; Parent=mRNA.34-1; Name=ORF34p
+dumas.fasta	VZV_2.0	CDS	63977	64753	.	-	0	ID=ORF35; Parent=mRNA.35-1; Name=ORF35p
+
+dumas.fasta	VZV_2.0	gene	68631	70350	.	-	.	ID=gene38; Name=ORF38
+dumas.fasta	VZV_2.0	mRNA	68631	70350	.	-	.	ID=mRNA.38-1; Parent=gene38; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	exon	68631	70350	.	-	.	ID=exon1; Parent=mRNA.38-1
+dumas.fasta	VZV_2.0	CDS	68668	70293	.	-	0	ID=ORF38; Parent=mRNA.38-1; Name=ORF38p
+
+dumas.fasta	VZV_2.0	gene	76828	82598	.	-	.	ID=gene42; Name=ORF42
+dumas.fasta	VZV_2.0	mRNA	76828	82598	.	-	.	ID=mRNA.42-1; Parent=gene42; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	76828	82598	.	-	.	ID=mRNA.42-2; Parent=gene42
+dumas.fasta	VZV_2.0	exon	76828	78038	.	-	.	ID=exon1; Parent=mRNA.42-1,mRNA.42-2
+dumas.fasta	VZV_2.0	exon	78939	79053	.	-	.	ID=exon2; Parent=mRNA.42-2
+dumas.fasta	VZV_2.0	exon	81538	82600	.	-	.	ID=exon3; Parent=mRNA.42-1,mRNA.42-2
+dumas.fasta	VZV_2.0	CDS	76851	78038	.	-	0	ID=ORF42; Parent=mRNA.42-1; Name=ORF42p
+dumas.fasta	VZV_2.0	CDS	81538	82593	.	-	0	ID=ORF42; Parent=mRNA.42-1; Name=ORF42p
+
+dumas.fasta	VZV_2.0	gene	86523	87923	.	-	.	ID=gene50; Name=ORF50
+dumas.fasta	VZV_2.0	mRNA	86523	88348	.	-	.	ID=mRNA.50-1; Parent=gene50; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	86523	88348	.	-	.	ID=mRNA.50-2; Parent=gene50
+dumas.fasta	VZV_2.0	mRNA	86523	88348	.	-	.	ID=mRNA.50-3; Parent=gene50
+dumas.fasta	VZV_2.0	mRNA	86523	88348	.	-	.	ID=mRNA.50-4; Parent=gene50
+dumas.fasta	VZV_2.0	mRNA	86523	88348	.	-	.	ID=mRNA.50-5; Parent=gene50
+dumas.fasta	VZV_2.0	mRNA	86523	87186	.	-	.	ID=mRNA.50-6; Parent=gene50
+dumas.fasta	VZV_2.0	mRNA	86523	87923	.	-	.	ID=mRNA.50-7; Parent=gene50
+dumas.fasta	VZV_2.0	exon	86523	88339	.	-	.	ID=exon1; Parent=mRNA.50-1
+dumas.fasta	VZV_2.0	exon	86523	86781	.	-	.	ID=exon1; Parent=mRNA.50-2,mRNA.50-3
+dumas.fasta	VZV_2.0	exon	86523	86981	.	-	.	ID=exon1; Parent=mRNA.50-4,mRNA.50-5
+dumas.fasta	VZV_2.0	exon	87437	88339	.	-	.	ID=exon2; Parent=mRNA.50-2,mRNA.50-4
+dumas.fasta	VZV_2.0	exon	87760	88339	.	-	.	ID=exon2; Parent=mRNA.50-3,mRNA.50-5
+dumas.fasta	VZV_2.0	exon	86523	87186	.	-	.	ID=exon1; Parent=mRNA.50-6
+dumas.fasta	VZV_2.0	exon	86523	87923	.	-	.	ID=exon1; Parent=mRNA.50-7
+dumas.fasta	VZV_2.0	CDS	86575	87882	.	-	0	ID=ORF50; Parent=mRNA.50-1; Name=ORF50p
+
+dumas.fasta	VZV_2.0	gene	92839	96224	.	-	.	ID=gene53; Name=ORF53
+dumas.fasta	VZV_2.0	mRNA	92839	93901	.	-	.	ID=mRNA.53-1; Parent=gene53; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	92839	96224	.	-	.	ID=mRNA.54-1; Parent=gene53
+dumas.fasta	VZV_2.0	mRNA	92839	94949	.	-	.	ID=mRNA.54-2; Parent=gene53; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	exon	92839	93901	.	-	.	ID=exon1; Parent=mRNA.53-1
+dumas.fasta	VZV_2.0	exon	92839	94949	.	-	.	ID=exon1; Parent=mRNA.54-1
+dumas.fasta	VZV_2.0	exon	92839	96224	.	-	.	ID=exon1; Parent=mRNA.54-2
+dumas.fasta	VZV_2.0	CDS	92855	93850	.	-	0	ID=ORF53; Parent=mRNA.53-1; Name=ORF53p
+dumas.fasta	VZV_2.0	CDS	93675	95984	.	-	0	ID=ORF54; Parent=mRNA.54-2; Name=ORF54p
+
+dumas.fasta	VZV_2.0	gene	99377	101842	.	-	.	ID=gene57; Name=ORF57
+dumas.fasta	VZV_2.0	mRNA	99377	99835	.	-	.	ID=mRNA.57-1; Parent=gene57; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	99377	100277	.	-	.	ID=mRNA.58-1; Parent=gene57; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	99862	100277	.	-	.	ID=mRNA.58-2; Parent=gene57
+dumas.fasta	VZV_2.0	mRNA	99377	101281	.	-	.	ID=mRNA.59-1; Parent=gene57; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	99862	101281	.	-	.	ID=mRNA.59-2; Parent=gene57
+dumas.fasta	VZV_2.0	mRNA	99377	101710	.	-	.	ID=mRNA.60-1; Parent=gene57; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	99862	101842	.	-	.	ID=mRNA.60-2; Parent=gene57
+dumas.fasta	VZV_2.0	mRNA	99377	101710	.	-	.	ID=mRNA.60-3; Parent=gene57
+dumas.fasta	VZV_2.0	mRNA	99862	101842	.	-	.	ID=mRNA.60-4; Parent=gene57
+dumas.fasta	VZV_2.0	exon	99377	99835	.	-	.	ID=exon1; Parent=mRNA.57-1
+dumas.fasta	VZV_2.0	exon	99377	100277	.	-	.	ID=exon1; Parent=mRNA.58-1
+dumas.fasta	VZV_2.0	exon	99377	101281	.	-	.	ID=exon1; Parent=mRNA.59-1
+dumas.fasta	VZV_2.0	exon	99377	101710	.	-	.	ID=exon1; Parent=mRNA.60-1
+dumas.fasta	VZV_2.0	exon	99377	101842	.	-	.	ID=exon1; Parent=mRNA.60-2
+dumas.fasta	VZV_2.0	exon	99862	100277	.	-	.	ID=exon1; Parent=mRNA.58-2
+dumas.fasta	VZV_2.0	exon	99862	101281	.	-	.	ID=exon1; Parent=mRNA.59-2
+dumas.fasta	VZV_2.0	exon	99862	101710	.	-	.	ID=exon1; Parent=mRNA.60-3
+dumas.fasta	VZV_2.0	exon	99862	101842	.	-	.	ID=exon1; Parent=mRNA.60-4
+dumas.fasta	VZV_2.0	CDS	99411	99626	.	-	0	ID=ORF57; Parent=mRNA.57-1; Name=ORF57p
+dumas.fasta	VZV_2.0	CDS	99607	100272	.	-	0	ID=ORF58; Parent=mRNA.58-1; Name=ORF58p
+dumas.fasta	VZV_2.0	CDS	100302	101219	.	-	0	ID=ORF59; Parent=mRNA.59-1; Name=ORF59p
+dumas.fasta	VZV_2.0	CDS	101170	101649	.	-	0	ID=ORF60; Parent=mRNA.60-1; Name=ORF60p
+
+dumas.fasta	VZV_2.0	gene	102983	104550	.	-	.	ID=gene61; Name=ORF61
+dumas.fasta	VZV_2.0	mRNA	102983	104550	.	-	.	ID=mRNA.61-1; Parent=gene61; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	102983	104332	.	-	.	ID=mRNA.61-2; Parent=gene61
+dumas.fasta	VZV_2.0	exon	102983	104550	.	-	.	ID=exon61; Parent=mRNA.61-1
+dumas.fasta	VZV_2.0	exon	102983	104332	.	-	.	ID=exon61; Parent=mRNA.61-2
+dumas.fasta	VZV_2.0	CDS	103082	104485	.	-	0	ID=ORF61; Parent=mRNA.61-1; Name=ORF61p
+
+dumas.fasta	VZV_2.0	gene	105118	109204	.	-	.	ID=gene62a; Name=ORF62
+dumas.fasta	VZV_2.0	mRNA	105118	109204	.	-	.	ID=mRNA.62a-1; Parent=gene62a; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	105118	107073	.	-	.	ID=mRNA.62a-2; Parent=gene62a
+dumas.fasta	VZV_2.0	mRNA	105633	109204	.	-	.	ID=mRNA.62a-3; Parent=gene62a
+dumas.fasta	VZV_2.0	exon	105118	109204	.	-	.	ID=exon1; Parent=mRNA.62a-1
+dumas.fasta	VZV_2.0	exon	105118	107073	.	-	.	ID=exon1; Parent=mRNA.62a-2
+dumas.fasta	VZV_2.0	exon	105633	109204	.	-	.	ID=exon1; Parent=mRNA.62a-3
+dumas.fasta	VZV_2.0	CDS	105201	109133	.	-	0	ID=ORF62; Parent=mRNA.62a-1; Name=ORF62p
+
+dumas.fasta	VZV_2.0	gene	112161	112793	.	-	.	ID=gene65; Name=ORF65
+dumas.fasta	VZV_2.0	mRNA	112161	112679	.	-	.	ID=mRNA.65-1; Parent=gene65; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	112161	112793	.	-	.	ID=mRNA.65-2; Parent=gene65
+dumas.fasta	VZV_2.0	exon	112161	112671	.	-	.	ID=exon1; Parent=mRNA.65-1
+dumas.fasta	VZV_2.0	exon	112161	112793	.	-	.	ID=exon1; Parent=mRNA.65-2
+dumas.fasta	VZV_2.0	CDS	112332	112640	.	-	0	ID=ORF65; Parent=mRNA.65-1; Name=ORF65p
+
+dumas.fasta	VZV_2.0	gene	117745	121058	.	-	.	ID=gene64; Name=ORF64
+dumas.fasta	VZV_2.0	mRNA	117749	118447	.	-	.	ID=mRNA.64b-1; Parent=gene64; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	118446	119402	.	-	.	ID=mRNA.63b-1; Parent=gene64; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	118446	121058	.	-	.	ID=mRNA.63b-2; Parent=gene64
+dumas.fasta	VZV_2.0	exon	117749	118447	.	-	.	ID=exon1; Parent=mRNA.64b-1
+dumas.fasta	VZV_2.0	exon	118446	119402	.	-	.	ID=exon1; Parent=mRNA.63b-1
+dumas.fasta	VZV_2.0	exon	118446	119387	.	-	.	ID=exon1; Parent=mRNA.63b-2
+dumas.fasta	VZV_2.0	exon	120836	121058	.	-	.	ID=exon2; Parent=mRNA.63b-2
+dumas.fasta	VZV_2.0	CDS	117790	118332	.	-	0	ID=ORF64; Parent=mRNA.64b-1; Name=ORF64p
+dumas.fasta	VZV_2.0	CDS	118480	119316	.	-	0	ID=ORF63; Parent=mRNA.63b-1; Name=ORF63p
