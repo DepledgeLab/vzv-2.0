@@ -7,7 +7,8 @@ This repository contains files related to our recent re-annotation of VZV strain
 
 Description of files:
 
-VZV-Dumas-Forward-2.0.gff3 - GFF3 file denoting all VZV RNAs annotated on the top strand of VZV strain Dumas 
+VZV-Dumas-Forward-2.0.gff3 - GFF3 file denoting all VZV RNAs annotated on the top strand of VZV strain Dumas
+
 VZV-Dumas-Reverse-2.0.gff3 - GFF3 file denoting all VZV RNAs annotated on the bottom strand of VZV strain Dumas 
 
 VZV-Dumas.fasta - original VZV strain Dumas genome sequence (Genbank accession NC_001348.1) 
