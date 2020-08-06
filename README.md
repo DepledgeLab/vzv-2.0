@@ -38,5 +38,6 @@ BED12 format files containing FLAIR-corrected read alignments are found in the B
 - VZV-Dumas.fasta - original VZV strain Dumas genome sequence in FASTA format (Genbank accession NC_001348.1). This version is compatible with BED12 files in IGV.
 
 *Note: these files were generated using nanopore dRNA-Seq datasets basecalled with Guppy v3.2.2*
-*Note 2: BED12 filenames are constructured from VZV strain names (EMC1, pOka), infected cell type (ARPE-19 epithelial cells, hESC-derived neurons), infection period (12h, 24h, 96h), and treatment (cyclohexamide, phosphonoacetic acid) with the absence of CHX or PAA indicating no treatment was performed.
+
+*Note 2: BED12 filenames are constructured from VZV strain names (EMC1, pOka), infected cell type (ARPE-19 epithelial cells, hESC-derived neurons), infection period (12h, 24h, 96h), and treatment (cyclohexamide, phosphonoacetic acid) with the absence of CHX or PAA indicating no treatment was performed.*
 
