@@ -16,20 +16,21 @@ Note:Users should ensure the header line in the genome fasta file matches the te
 
 BED12 format files containing FLAIR-corrected read alignments are found in the BED12 folder and comprise the following:
 
-- EMC1_12h_CHX_for_corr_all_corrected.bed
-- EMC1_12h_CHX_rev_corr_all_corrected.bed
-- EMC1_24h_PAA_for_corr_all_corrected.bed
-- EMC1_24h_PAA_rev_corr_all_corrected.bed
-- EMC1_24h_for_corr_all_corrected.bed
-- EMC1_24h_rev_corr_all_corrected.bed
-- EMC1_96h_for_corr_all_corrected.bed
-- EMC1_96h_rev_corr_all_corrected.bed
+- EMC1_ARPE19_12h_CHX_for_corr_all_corrected.bed
+- EMC1_ARPE19_12h_CHX_rev_corr_all_corrected.bed
+- EMC1_ARPE19_24h_PAA_for_corr_all_corrected.bed
+- EMC1_ARPE19_24h_PAA_rev_corr_all_corrected.bed
+- EMC1_ARPE19_24h_for_corr_all_corrected.bed
+- EMC1_ARPE19_24h_rev_corr_all_corrected.bed
+- EMC1_ARPE19_96h_for_corr_all_corrected.bed
+- EMC1_ARPE19_96h_rev_corr_all_corrected.bed
 
-- pOka-NEU_for_corr_all_corrected.bed
-- pOka-NEU_rev_corr_all_corrected.bed
-- pOka-ARPE19_biorep1_for_corr_all_corrected.bed
-- pOka-ARPE19_biorep1_rev_corr_all_corrected.bed
-- pOka-ARPE19_biorep2_for_corr_all_corrected.bed
-- pOka-ARPE19_biorep2_rev_corr_all_corrected.bed
+- pOka_NEU_96h_for_corr_all_corrected.bed
+- pOka_NEU_96h_rev_corr_all_corrected.bed
+
+- pOka_ARPE19_96h_biorep1_for_corr_all_corrected.bed
+- pOka_ARPE19_96h_biorep1_rev_corr_all_corrected.bed
+- pOka_ARPE19_96h_biorep2_for_corr_all_corrected.bed
+- pOka_ARPE19_96h_biorep2_rev_corr_all_corrected.bed
 
 
