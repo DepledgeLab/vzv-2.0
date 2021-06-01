@@ -1,6 +1,6 @@
 # VZV 2.0 annotation #
 
-This repository contains files related to our recent re-annotation of VZV strain Dumas described here - [ mBIo ](https://journals.asm.org/doi/10.1128/mBio.01568-20). 
+This repository contains files related to our recent re-annotation of VZV strain Dumas described here - [ mBio ](https://journals.asm.org/doi/10.1128/mBio.01568-20). 
 
 All raw Illumina and Nanopore dRNA-Seq datasets associated with this study are available from the ENA under project accession [ PRJEB38829 ](https://www.ebi.ac.uk/ena/browser/view/PRJEB38829).
 
