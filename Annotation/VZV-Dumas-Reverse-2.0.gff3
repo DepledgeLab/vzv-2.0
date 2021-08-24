@@ -25,7 +25,7 @@ dumas.fasta	VZV_2.0	CDS	2783	4141	.	-	0	ID=ORF4; Parent=mRNA.4-1; Name=ORF4p
 dumas.fasta	VZV_2.0	CDS	4252	5274	.	-	0	ID=ORF5; Parent=mRNA.5-1; Name=ORF5p
 dumas.fasta	VZV_2.0	CDS	5326	8577	.	-	0	ID=ORF6; Parent=mRNA.6-1; Name=ORF6p
 
-dumas.fasta	VZV_2.0	gene	9410	10746	.	-	.	ID=gene8-1; Name=ORF8
+dumas.fasta	VZV_2.0	gene	9410	10746	.	-	.	ID=gene8; Name=ORF8
 dumas.fasta	VZV_2.0	mRNA	9410	10746	.	-	.	ID=mRNA.8-1; Parent=gene8; Note=CanonicalmRNA
 dumas.fasta	VZV_2.0	exon	9410	10746	.	-	.	ID=exon1; Parent=mRNA.8-1
 dumas.fasta	VZV_2.0	CDS	9477	10667	.	-	0	ID=ORF8; Parent=mRNA.8-1; Name=ORF8p

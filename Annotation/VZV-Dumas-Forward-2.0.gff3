@@ -14,7 +14,7 @@ dumas.fasta	VZV_2.0	CDS	173	562	.	+	0	ID=ORF0; Parent=mRNA.0-1; Name=ORF0p
 dumas.fasta	VZV_2.0	gene	1158	1884	.	+	.	ID=Gene2; Name=Gene2
 dumas.fasta	VZV_2.0	mRNA	1158	1884	.	+	.	ID=mRNA.2-1; Parent=Gene2; Note=CanonicalmRNA
 dumas.fasta	VZV_2.0	exon	1158	1884	.	+	.	ID=exon1; Parent=mRNA.2-1
-dumas.fasta	VZV_2.0	CDS	1186	1851	.	+	0	ID=ORF3; Parent=mRNA.2-1; Name=ORF2p
+dumas.fasta	VZV_2.0	CDS	1186	1851	.	+	0	ID=ORF2; Parent=mRNA.2-1; Name=ORF2p
 
 dumas.fasta	VZV_2.0	gene	8453	9413	.	+	.	ID=Gene7; Name=Gene7
 dumas.fasta	VZV_2.0	mRNA	8453	9413	.	+	.	ID=mRNA.7-1; Parent=Gene7; Note=CanonicalmRNA
@@ -23,15 +23,15 @@ dumas.fasta	VZV_2.0	CDS	8607	9386	.	+	0	ID=ORF7; Parent=mRNA.7-1; Name=ORF7p
 
 dumas.fasta	VZV_2.0	gene	9610	11982	.	+	.	ID=Gene9; Name=Gene9
 dumas.fasta	VZV_2.0	mRNA	9610	11982	.	+	.	ID=mRNA.9-2; Parent=Gene9
-dumas.fasta	VZV_2.0	mRNA	9610	11982	.	+	.	ID=mRNA.9-3; Parent=Gene9
-dumas.fasta	VZV_2.0	mRNA	10452	11982	.	+	.	ID=mRNA.9-A; Parent=Gene9; Note=CanonicalmRNA
+dumas.fasta	VZV_2.0	mRNA	9610	11982	.	+	.	ID=mRNA.9A-2; Parent=Gene9
+dumas.fasta	VZV_2.0	mRNA	10452	11982	.	+	.	ID=mRNA.9A-1; Parent=Gene9; Note=CanonicalmRNA
 dumas.fasta	VZV_2.0	mRNA	10952	11982	.	+	.	ID=mRNA.9-1; Parent=Gene9; Note=CanonicalmRNA
-dumas.fasta	VZV_2.0	exon	9610	9886	.	+	.	ID=exon1; Parent=mRNA.9-2,mRNA.9-3
-dumas.fasta	VZV_2.0	exon	10445	11981	.	+	.	ID=exon2; Parent=mRNA.9-3
+dumas.fasta	VZV_2.0	exon	9610	9886	.	+	.	ID=exon1; Parent=mRNA.9-2,mRNA.9A-2
+dumas.fasta	VZV_2.0	exon	10445	11981	.	+	.	ID=exon2; Parent=mRNA.9A-2
 dumas.fasta	VZV_2.0	exon	10703	11981	.	+	.	ID=exon2; Parent=mRNA.9-2
-dumas.fasta	VZV_2.0	exon	10452	11981	.	+	.	ID=exon1; Parent=mRNA.9-A
+dumas.fasta	VZV_2.0	exon	10452	11981	.	+	.	ID=exon1; Parent=mRNA.9A-1
 dumas.fasta	VZV_2.0	exon	10952	11981	.	+	.	ID=exon1; Parent=mRNA.9-1
-dumas.fasta	VZV_2.0	CDS	10642	10905	.	+	0	ID=ORF9A; Parent=mRNA.9-A; Name=ORF9Ap
+dumas.fasta	VZV_2.0	CDS	10642	10905	.	+	0	ID=ORF9A; Parent=mRNA.9A-1; Name=ORF9Ap
 dumas.fasta	VZV_2.0	CDS	11009	11917	.	+	0	ID=ORF9; Parent=mRNA.9-1; Name=ORF9p
 
 dumas.fasta	VZV_2.0	gene	12097	13435	.	+	.	ID=gene10; Name=gene10
@@ -189,43 +189,45 @@ dumas.fasta	VZV_2.0	CDS	98680	99302	.	+	0	ID=ORF56; Parent=mRNA.56-1; Name=ORF56
 dumas.fasta	VZV_2.0	gene	101413	111451	.	+	.	ID=geneVLT63; Name=geneVLT63
 dumas.fasta	VZV_2.0	mRNA	101413	104835	.	+	.	ID=mRNA.VLT-lyt; Parent=geneVLT63
 dumas.fasta	VZV_2.0	mRNA	101413	111451	.	+	.	ID=mRNA.VLTlyt63-2; Parent=geneVLT63
-dumas.fasta	VZV_2.0	mRNA	101413	111451	.	+	.	ID=mRNA.VLTlyt63-3; Parent=geneVLT63
+dumas.fasta	VZV_2.0	mRNA	101413	111451	.	+	.	ID=mRNA.VLTlyt63-1; Parent=geneVLT63
 dumas.fasta	VZV_2.0	mRNA	102392	104835	.	+	.	ID=mRNA.VLT-lat; Parent=geneVLT63; Note=CanonicalmRNA
 dumas.fasta	VZV_2.0	mRNA	102392	111451	.	+	.	ID=mRNA.VLTlat63-1; Parent=geneVLT63
 dumas.fasta	VZV_2.0	mRNA	102392	111451	.	+	.	ID=mRNA.VLTlat63-2; Parent=geneVLT63
-dumas.fasta	VZV_2.0	mRNA	104687	111451	.	+	.	ID=mRNA.VLTlyt63-1; Parent=geneVLT63; Note=Immediate-Early
+dumas.fasta	VZV_2.0	mRNA	104687	111451	.	+	.	ID=mRNA.VLTlyt63-3; Parent=geneVLT63; Note=Immediate-Early
 dumas.fasta	VZV_2.0	mRNA	108839	111451	.	+	.	ID=mRNA.63a-3; Parent=geneVLT63; Note=TSSguestimate
 dumas.fasta	VZV_2.0	mRNA	110495	111451	.	+	.	ID=mRNA.63a-1; Parent=geneVLT63
 dumas.fasta	VZV_2.0	mRNA	110495	111451	.	+	.	ID=mRNA.63a-2; Parent=geneVLT63
-dumas.fasta	VZV_2.0	exon	101413	101727	.	+	.	ID=exon1; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLT-lyt
+
+dumas.fasta	VZV_2.0	exon	101413	101727	.	+	.	ID=exon1; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-1,mRNA.VLT-lyt
 dumas.fasta	VZV_2.0	exon	102392	102483	.	+	.	ID=exon1a; Parent=mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2
-dumas.fasta	VZV_2.0	exon	102421	102483	.	+	.	ID=exon2; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLT-lyt
-dumas.fasta	VZV_2.0	exon	102854	102982	.	+	.	ID=exon3; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.VLT-lyt
-dumas.fasta	VZV_2.0	exon	103828	103923	.	+	.	ID=exon4; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.VLT-lyt
-dumas.fasta	VZV_2.0	exon	104294	104432	.	+	.	ID=exon5; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.VLT-lyt
-dumas.fasta	VZV_2.0	exon	104769	104823	.	+	.	ID=exon6; Parent=mRNA.VLTlyt63-1,mRNA.VLTlyt63-2,mRNA.VLTlat63-2
+dumas.fasta	VZV_2.0	exon	102421	102483	.	+	.	ID=exon2; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-1,mRNA.VLT-lyt
+dumas.fasta	VZV_2.0	exon	102854	102982	.	+	.	ID=exon3; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-1,mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.VLT-lyt
+dumas.fasta	VZV_2.0	exon	103828	103923	.	+	.	ID=exon4; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-1,mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.VLT-lyt
+dumas.fasta	VZV_2.0	exon	104294	104432	.	+	.	ID=exon5; Parent=mRNA.VLTlyt63-2,mRNA.VLTlyt63-1,mRNA.VLT-lat,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.VLT-lyt
+dumas.fasta	VZV_2.0	exon	104769	104823	.	+	.	ID=exon6; Parent=mRNA.VLTlyt63-3,mRNA.VLTlyt63-2,mRNA.VLTlat63-2
 dumas.fasta	VZV_2.0	exon	104769	104835	.	+	.	ID=exon6a; Parent=mRNA.VLT-lat,mRNA.VLT-lyt
 dumas.fasta	VZV_2.0	exon	108839	109990	.	+	.	ID=exon1; Parent=mRNA.63a-3
 dumas.fasta	VZV_2.0	exon	109591	109990	.	+	.	ID=exon1; Parent=mRNA.63a-2
 dumas.fasta	VZV_2.0	exon	110495	111451	.	+	.	ID=exon9; Parent=mRNA.63a-1; Note=CanonicalmRNA
 dumas.fasta	VZV_2.0	exon	110506	111446	.	+	.	ID=exon8; Parent=mRNA.VLTlyt63-1,mRNA.VLTlyt63-2,mRNA.VLTlyt63-3,mRNA.VLTlat63-1,mRNA.VLTlat63-2,mRNA.63a-2,mRNA.63a-3
-dumas.fasta	VZV_2.0	CDS	102860	102982	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-3; Name=VLTlyt63p
+
+dumas.fasta	VZV_2.0	CDS	102860	102982	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-1; Name=VLTlyt63p
 dumas.fasta	VZV_2.0	CDS	102860	102982	.	+	0	ID=VLT63; Parent=mRNA.VLTlat63-1; Name=VLTlat63p
 dumas.fasta	VZV_2.0	CDS	102860	102982	.	+	0	ID=VLT; Parent=mRNA.VLT-lat; Name=VLTp
 dumas.fasta	VZV_2.0	CDS	102860	102982	.	+	0	ID=VLT; Parent=mRNA.VLT-lyt; Name=VLTp
-dumas.fasta	VZV_2.0	CDS	103828	103923	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-3; Name=VLTlyt63p
+dumas.fasta	VZV_2.0	CDS	103828	103923	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-1; Name=VLTlyt63p
 dumas.fasta	VZV_2.0	CDS	103828	103923	.	+	0	ID=VLT63; Parent=mRNA.VLTlat63-1; Name=VLTlat63p
 dumas.fasta	VZV_2.0	CDS	103828	103923	.	+	0	ID=VLT; Parent=mRNA.VLT-lat; Name=VLTp
 dumas.fasta	VZV_2.0	CDS	103828	103923	.	+	0	ID=VLT; Parent=mRNA.VLT-lyt; Name=VLTp
-dumas.fasta	VZV_2.0	CDS	104294	104432	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-3; Name=VLTlyt63p
+dumas.fasta	VZV_2.0	CDS	104294	104432	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-1; Name=VLTlyt63p
 dumas.fasta	VZV_2.0	CDS	104294	104432	.	+	0	ID=VLT63; Parent=mRNA.VLTlat63-1; Name=VLTlat63p
 dumas.fasta	VZV_2.0	CDS	104294	104432	.	+	0	ID=VLT; Parent=mRNA.VLT-lat; Name=VLTp
 dumas.fasta	VZV_2.0	CDS	104294	104432	.	+	0	ID=VLT; Parent=mRNA.VLT-lyt; Name=VLTp
 dumas.fasta	VZV_2.0	CDS	104769	104835	.	+	0	ID=VLT; Parent=mRNA.VLT-lat; Name=VLTp
 dumas.fasta	VZV_2.0	CDS	104769	104835	.	+	0	ID=VLT; Parent=mRNA.VLT-lyt; Name=VLTp
-dumas.fasta	VZV_2.0	CDS	110510	111417	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-3; Name=VLTlyt63p
+dumas.fasta	VZV_2.0	CDS	110510	111417	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-1; Name=VLTlyt63p
 dumas.fasta	VZV_2.0	CDS	110510	111417	.	+	0	ID=VLT63; Parent=mRNA.VLTlat63-1; Name=VLTlat63p
-dumas.fasta	VZV_2.0	CDS	110510	111417	.	+	0	ID=VLT; Parent=mRNA.VLTlyt63-1; Name=ORF63p
+dumas.fasta	VZV_2.0	CDS	110510	111417	.	+	0	ID=VLT63; Parent=mRNA.VLTlyt63-3; Name=ORF63p
 dumas.fasta	VZV_2.0	CDS	110581	111417	.	+	0	ID=ORF63; Parent=mRNA.63a-1; Name=ORF63p
 
 dumas.fasta	VZV_2.0	gene	111450	112148	.	+	.	ID=gene64a; Name=gene64a
