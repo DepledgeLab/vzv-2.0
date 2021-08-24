@@ -4,6 +4,11 @@ This repository contains files related to our recent re-annotation of VZV strain
 
 All raw Illumina and Nanopore dRNA-Seq datasets associated with this study are available from the ENA under project accession [ PRJEB38829 ](https://www.ebi.ac.uk/ena/browser/view/PRJEB38829).
 
+## Updates: ##
+
+24.08.2021 - Uploaded new version of GFF3 files and transcriptome file with minor fixes in genes 8 and 10, as well as in the VLT63 locus.
+
+
 ## Description of files: ##
 
 ### Annotation directory: ###
