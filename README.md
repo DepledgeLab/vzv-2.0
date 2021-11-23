@@ -6,6 +6,7 @@ All raw Illumina and Nanopore dRNA-Seq datasets associated with this study are a
 
 ## Updates: ##
 
+23.11.2021 - Fixed minor error with co-ordinates of VLT63 exons
 24.08.2021 - Uploaded new version of GFF3 files and transcriptome file with minor fixes in genes 8 and 10, as well as in the VLT63 locus.
 
 
